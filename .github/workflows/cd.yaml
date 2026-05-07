@@ -28,7 +28,7 @@ jobs:
                 context: .
                 file: ./Dockerfile
                 push: true
-                tag: isabelirmedeiros/site-faculdade:latest
+                tags: isabelirmedeiros/site-faculdade:latest
 
             - name: Azure App
               uses: Azure/webapps-deploy@v3.0.1
