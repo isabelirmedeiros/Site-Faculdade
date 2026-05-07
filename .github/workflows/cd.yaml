@@ -4,7 +4,7 @@ run-name: Deploy do App
 on: 
     push:
         branches:
-            - main
+            - master
 
 jobs:
     deploy:
